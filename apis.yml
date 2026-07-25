@@ -1,8 +1,26 @@
 aid: crosschq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crosschq.png
 name: Crosschq
-description: 'Crosschq is a company surfaced as a portfolio company of bessemer-venture-partners, ggv-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Crosschq is a hiring intelligence platform that helps talent acquisition
+  and people-analytics teams improve quality of hire. Its cloud product suite spans
+  AI-powered interview agents, automated reference checks, candidate assessment and
+  screening, identity and interview-fraud detection, and quality-of-hire analytics
+  that tie hiring decisions back to on-the-job outcomes. Crosschq connects to major
+  applicant tracking and HCM systems (Workday, SAP SuccessFactors, Greenhouse, iCIMS,
+  Oracle, Lever, Ashby, Bullhorn, and others) through pre-built integrations rather
+  than a public self-service API. Founded in Danville, California, the company is
+  backed by Bessemer Venture Partners and GGV Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/crosschq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Human Resources
+- Recruiting
+- Talent Intelligence
+- Reference Checking
+- Hiring
+- Candidate Assessment
+- Analytics
+- Artificial Intelligence
+- ATS Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://crosschq.com/
+- type: Blog
+  url: https://www.crosschq.com/blog
+- type: Support
+  url: https://www.crosschq.com/customer-support
+- type: SignUp
+  url: https://www.crosschq.com/demo
+- type: Login
+  url: https://org.crosschq.com/login
+- type: PrivacyPolicy
+  url: https://www.crosschq.com/legal/privacy-policy
+- type: TrustCenter
+  url: security/crosschq-trust-center.yml
+- type: DomainSecurity
+  url: security/crosschq-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

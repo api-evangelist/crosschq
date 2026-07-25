@@ -1,0 +1,16 @@
+generated: '2026-07-18'
+method: searched
+source: linked from https://www.crosschq.com/ and https://www.crosschq.com/legal/privacy-policy
+url: https://trust.crosschq.com/
+# Crosschq operates a dedicated trust center at the trust.crosschq.com subdomain,
+# linked from the homepage footer and the privacy policy. The page is bot-protected
+# (returns HTTP 403 to automated fetches), so specific certifications could not be
+# read and are intentionally left unenumerated rather than fabricated. No Compliance
+# pointer is emitted because no named certification could be verified verbatim.
+certifications: []
+evidence:
+  - source: https://www.crosschq.com/legal/privacy-policy
+    keywords: [trust center, data privacy framework, sub-processors]
+  - source: https://trust.crosschq.com/
+    status: 403
+    note: trust center subdomain exists (bot-protected); linked from crosschq.com
